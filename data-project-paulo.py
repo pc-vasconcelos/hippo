@@ -35,3 +35,4 @@ metrics_df = merged_df.groupby(['npi', 'ndc']).agg(
 ).reset_index()
 
 metrics_df.to_json(os.path.join(BASE_DIR, 'output', 'metrics.json'), orient='records', lines=False, force_ascii=False)
+#test
