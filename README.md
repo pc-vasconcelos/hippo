@@ -41,13 +41,13 @@ health	1234567890
 
 Clone or download this repository to your local machine.
 
-Prepare your data files:
+Data files are already in the data folder, but if you need to add more files:
 
-Place claims files (.json or .csv) into data/claims/
+Place claims files into data/claims/
 
-Place pharmacies files (.json or .csv) into data/pharmacies/
+Place pharmacies files into data/pharmacies/
 
-Place reverts files (.json or .csv) into data/reverts/
+Place reverts files into data/reverts/
 
 Run the script:
 
