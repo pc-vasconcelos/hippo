@@ -4,9 +4,9 @@ This script processes claims, pharmacy, and reverts data from CSV and JSON files
 
 It produces three output JSON files:
 
-1. metrics.json - Metrics aggregated by npi and ndc.
+1. metrics.json - Metrics aggregated by npi and ndc: Count of claims, Count of reverts, Average unit price and Total price
 
-2. recommend.json - Recommended pharmacies with the two lowest average prices per ndc.
+2. recommend.json - Recommended Chains with the two lowest average prices for each Drug.
 
 3. most-commom.json - Five most common quantities prescribed per ndc.
 
